@@ -1,0 +1,5 @@
+Dataset,Total Rows,Pothole Count,Bump Count,Clean Road Rows
+Combined,13221,2279,1299,9643
+Potholes Only,2279,2279,0,0
+Bumps Only,1299,0,1299,0
+All Anomalies,3578,2279,1299,0

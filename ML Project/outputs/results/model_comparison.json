@@ -1,0 +1,218 @@
+[
+    {
+        "model_name": "Logistic Regression",
+        "accuracy": 0.62,
+        "precision_macro": 0.6147463339472218,
+        "recall_macro": 0.6179905845396629,
+        "f1_macro": 0.6096219424224539,
+        "f1_weighted": 0.6107230684916106,
+        "roc_auc": 0.814463043841312,
+        "latency_ms_per_window": 0.0020551428575085345,
+        "confusion_matrix": [
+            [
+                99,
+                10,
+                10
+            ],
+            [
+                24,
+                64,
+                27
+            ],
+            [
+                30,
+                32,
+                54
+            ]
+        ]
+    },
+    {
+        "model_name": "KNN",
+        "accuracy": 0.7085714285714285,
+        "precision_macro": 0.7071628665459312,
+        "recall_macro": 0.7065715041638844,
+        "f1_macro": 0.6998934832268165,
+        "f1_weighted": 0.700935704935705,
+        "roc_auc": 0.8576951253114218,
+        "latency_ms_per_window": 13.841348857143073,
+        "confusion_matrix": [
+            [
+                109,
+                6,
+                4
+            ],
+            [
+                20,
+                73,
+                22
+            ],
+            [
+                22,
+                28,
+                66
+            ]
+        ]
+    },
+    {
+        "model_name": "Decision Tree",
+        "accuracy": 0.5885714285714285,
+        "precision_macro": 0.5821987030361906,
+        "recall_macro": 0.5871058168394794,
+        "f1_macro": 0.5834847310123538,
+        "f1_weighted": 0.5847083099496462,
+        "roc_auc": 0.6766429355889637,
+        "latency_ms_per_window": 0.003218571429377854,
+        "confusion_matrix": [
+            [
+                89,
+                13,
+                17
+            ],
+            [
+                19,
+                64,
+                32
+            ],
+            [
+                22,
+                41,
+                53
+            ]
+        ]
+    },
+    {
+        "model_name": "Random Forest",
+        "accuracy": 0.74,
+        "precision_macro": 0.7346097554200933,
+        "recall_macro": 0.7385504726628284,
+        "f1_macro": 0.7348172207765348,
+        "f1_weighted": 0.7358599097131208,
+        "roc_auc": 0.888410155545562,
+        "latency_ms_per_window": 0.3188114285720595,
+        "confusion_matrix": [
+            [
+                107,
+                5,
+                7
+            ],
+            [
+                8,
+                82,
+                25
+            ],
+            [
+                18,
+                28,
+                70
+            ]
+        ]
+    },
+    {
+        "model_name": "Na\u00efve Bayes",
+        "accuracy": 0.4857142857142857,
+        "precision_macro": 0.5000847576300292,
+        "recall_macro": 0.481329083357481,
+        "f1_macro": 0.43903712921841515,
+        "f1_weighted": 0.4411998703116177,
+        "roc_auc": 0.7175187947717796,
+        "latency_ms_per_window": 0.009833428571904992,
+        "confusion_matrix": [
+            [
+                107,
+                3,
+                9
+            ],
+            [
+                43,
+                23,
+                49
+            ],
+            [
+                63,
+                13,
+                40
+            ]
+        ]
+    },
+    {
+        "model_name": "SVM",
+        "accuracy": 0.7085714285714285,
+        "precision_macro": 0.7031555160512389,
+        "recall_macro": 0.7068887824995066,
+        "f1_macro": 0.7014705663963884,
+        "f1_weighted": 0.7024601106146816,
+        "roc_auc": 0.8747801436913497,
+        "latency_ms_per_window": 0.359148857143217,
+        "confusion_matrix": [
+            [
+                106,
+                2,
+                11
+            ],
+            [
+                15,
+                77,
+                23
+            ],
+            [
+                21,
+                30,
+                65
+            ]
+        ]
+    },
+    {
+        "model_name": "ANN / MLP",
+        "accuracy": 0.6257142857142857,
+        "precision_macro": 0.6182394075717256,
+        "recall_macro": 0.6231531293176941,
+        "f1_macro": 0.6120804010474483,
+        "f1_weighted": 0.6134718362612194,
+        "roc_auc": 0.7954168778162654,
+        "latency_ms_per_window": 0.008536857142514367,
+        "confusion_matrix": [
+            [
+                105,
+                6,
+                8
+            ],
+            [
+                24,
+                58,
+                33
+            ],
+            [
+                30,
+                30,
+                56
+            ]
+        ]
+    },
+    {
+        "model_name": "Rule-Based",
+        "accuracy": 0.32,
+        "precision_macro": 0.3759469423508235,
+        "recall_macro": 0.32324363028569747,
+        "f1_macro": 0.2442275103049979,
+        "f1_weighted": 0.24282886483718397,
+        "roc_auc": 0.5060040702270602,
+        "latency_ms_per_window": 0.0026311428570936967,
+        "confusion_matrix": [
+            [
+                12,
+                107,
+                0
+            ],
+            [
+                16,
+                91,
+                8
+            ],
+            [
+                14,
+                93,
+                9
+            ]
+        ]
+    }
+]

@@ -1,0 +1,95 @@
+{
+    "trained_at": "2026-10-28 00:44:23",
+    "total_raw_records": 90000,
+    "total_windows": 1749,
+    "classes": [
+        "Normal Road",
+        "Bump",
+        "Pothole"
+    ],
+    "feature_names": [
+        "acc_x_mean",
+        "acc_x_std",
+        "acc_x_rms",
+        "acc_x_max",
+        "acc_x_min",
+        "acc_x_p2p",
+        "acc_x_energy",
+        "acc_y_mean",
+        "acc_y_std",
+        "acc_y_rms",
+        "acc_y_max",
+        "acc_y_min",
+        "acc_y_p2p",
+        "acc_y_energy",
+        "acc_z_mean",
+        "acc_z_std",
+        "acc_z_rms",
+        "acc_z_max",
+        "acc_z_min",
+        "acc_z_p2p",
+        "acc_z_energy",
+        "acc_z_kurtosis",
+        "acc_z_skew",
+        "acc_mag_mean",
+        "acc_mag_std",
+        "acc_mag_rms",
+        "acc_mag_max",
+        "acc_mag_min",
+        "acc_mag_p2p",
+        "acc_mag_energy",
+        "gyro_x_rms",
+        "gyro_x_std",
+        "gyro_x_p2p",
+        "gyro_y_rms",
+        "gyro_y_std",
+        "gyro_y_p2p",
+        "gyro_z_rms",
+        "gyro_z_std",
+        "gyro_z_p2p",
+        "gyro_mag_mean",
+        "gyro_mag_rms",
+        "gyro_mag_max",
+        "gyro_mag_energy",
+        "acc_z_spectral_energy",
+        "acc_z_dominant_freq",
+        "acc_mag_spectral_energy"
+    ],
+    "best_model": "Random Forest",
+    "best_accuracy": 74.0,
+    "best_f1": 73.48172207765347,
+    "models": {
+        "Logistic Regression": {
+            "accuracy": 0.62,
+            "f1_macro": 0.6096219424224539
+        },
+        "KNN": {
+            "accuracy": 0.7085714285714285,
+            "f1_macro": 0.6998934832268165
+        },
+        "Decision Tree": {
+            "accuracy": 0.5885714285714285,
+            "f1_macro": 0.5834847310123538
+        },
+        "Random Forest": {
+            "accuracy": 0.74,
+            "f1_macro": 0.7348172207765348
+        },
+        "Na\u00efve Bayes": {
+            "accuracy": 0.4857142857142857,
+            "f1_macro": 0.43903712921841515
+        },
+        "SVM": {
+            "accuracy": 0.7085714285714285,
+            "f1_macro": 0.7014705663963884
+        },
+        "ANN / MLP": {
+            "accuracy": 0.6257142857142857,
+            "f1_macro": 0.6120804010474483
+        },
+        "Rule-Based": {
+            "accuracy": 0.32,
+            "f1_macro": 0.2442275103049979
+        }
+    }
+}

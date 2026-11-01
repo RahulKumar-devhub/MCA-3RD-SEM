@@ -1,0 +1,161 @@
+/* RoadSense Modern Dark Telematic Dashboard Styling */
+
+/* Main Container */
+.main .block-container {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    max-width: 1300px;
+}
+
+/* Custom Header */
+.rs-header-container {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 18px 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rs-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #f8fafc;
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rs-title span {
+    color: #38bdf8;
+}
+
+.rs-subtitle {
+    font-size: 13px;
+    color: #94a3b8;
+    margin-top: 3px;
+}
+
+.rs-badge {
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: #38bdf8;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* KPI Stat Cards */
+.rs-stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.rs-stat-card {
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+    padding: 16px 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.rs-stat-card:hover {
+    border-color: #38bdf8;
+    transform: translateY(-2px);
+}
+
+.rs-stat-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.rs-stat-val {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f1f5f9;
+    margin-top: 6px;
+}
+
+.rs-stat-sub {
+    font-size: 11px;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+/* Section Box */
+.rs-box {
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.rs-box-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #e2e8f0;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #1f2937;
+    padding-bottom: 8px;
+}
+
+/* Status Indicators */
+.rs-indicator {
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.rs-indicator-normal {
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid #10b981;
+    color: #34d399;
+}
+
+.rs-indicator-bump {
+    background: rgba(245, 158, 11, 0.18);
+    border: 1px solid #f59e0b;
+    color: #fbbf24;
+}
+
+.rs-indicator-pothole {
+    background: rgba(239, 68, 68, 0.2);
+    border: 1px solid #ef4444;
+    color: #f87171;
+}
+
+/* Sidebar Branding */
+.css-1d391kg, [data-testid="stSidebar"] {
+    background-color: #0b0f19 !important;
+    border-right: 1px solid #1f2937 !important;
+}
+
+/* Custom Table */
+.dataframe {
+    background-color: #111827 !important;
+    color: #e2e8f0 !important;
+    border: 1px solid #1f2937 !important;
+    border-radius: 6px !important;
+}
